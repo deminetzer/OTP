@@ -30,10 +30,10 @@ pip install flask pyotp twilio
 ### 2. Set Up Environment Variables
 Create a .env file in the root directory of the project and add the following environment variables:
 
-FLASK_SECRET_KEY=your_secret_key
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
+- FLASK_SECRET_KEY=your_secret_key
+- TWILIO_ACCOUNT_SID=your_twilio_account_sid
+- TWILIO_AUTH_TOKEN=your_twilio_auth_token
+- TWILIO_PHONE_NUMBER=your_twilio_phone_number
 
 ### 3. Run the Application
 Start the Flask application:
